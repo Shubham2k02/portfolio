@@ -60,7 +60,7 @@
                             </ul>
                          </div>
 
-                         <div class="tab-contents" id="publications">
+                         <div class="tab-contents" id="publication">
                             <ul>
                                 <li><span>Jan 2023</span><br>Title: Efficient Waste Collection and Filtration using IOT<br>
                                     DOI: 10.55041/IJSREM17403<br>
@@ -79,20 +79,6 @@
         </div>
     </div>
 
-    <script>
-
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
-        function opentab(tabname){
-            for(tablink of tablinks){
-                tablink.classList.remove("active-link");
-            }
-            for(tabcontent of tabcontents){
-                tabcontent.classList.remove("active-tab");
-        }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-    }
-    </script>
+    <script src="./index.js"></script>
 </body>
 </html>
